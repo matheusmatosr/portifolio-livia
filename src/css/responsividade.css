@@ -142,7 +142,7 @@
         position: fixed;
         left: 0;
         top: 0;
-        background-color: rgba(90, 15, 15, 0.759);
+        background-color: rgba(204, 73, 195, 0.759);
         backdrop-filter: blur(3px);
     }
 
@@ -245,8 +245,18 @@
     }
     
     .info-sobremim .list-buttons{
-        margin-left: 80px;
+        margin-left: 60px;
         margin-top: 5px;
+    }
+
+    .btn{
+        width: 100px;
+        height: 50px;
+    }
+
+    .btnCu{
+        width: 100px;
+        height: 50px;
     }
 
     .contatos .info-contato .computador{
