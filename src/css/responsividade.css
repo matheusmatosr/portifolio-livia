@@ -1,0 +1,354 @@
+/*    responsividade     */
+
+@media (min-width:2570px) {
+    #mauricio {
+        width: 30%;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:1900px) and (min-width: 1200px) {
+    .info-sobremim h1 {
+        margin-left: 55px;
+    }
+    
+    .info-sobremim button {
+        margin-left: 15px;
+        width: 150px;
+    }
+    .info-sobremim .list-buttons{
+        margin-left: 120px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .inicio {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 16% 50px 10%;
+    }
+
+    .txt {
+        width: 100%;
+    }
+    
+    #mauricio {
+        margin-left: 400px;
+        width: 30%;
+    }
+}
+
+@media (max-width: 860px) {
+
+    #mauricio {
+        margin-left: 200px;
+        width: 25%;
+    }
+
+    #img-sobremim {
+        height: 150px;
+    }
+
+    .contatos .info-contato .info-txt {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+
+    .contatos .info-contato .computador{
+        height: 200px;
+        border-radius: 50px;
+    }
+
+    .projetos .container-projetos {
+        padding: 0 19px;
+    }
+
+}
+
+@media (max-width: 780px) {
+    .txt {
+        padding-left: 30px;
+    }
+    
+    .contatos .info-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .contatos .info-contato .info-txt {
+        margin: 0;
+        text-align: center;
+    }
+
+    .contatos .info-contato .info-txt .div-icones {
+        padding: 20px;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+    .contatos .info-contato .computador{
+        margin: auto;
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    [data-anima="right"] {
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    @keyframes slideInLeft {
+        from {
+            transform: translateX(-100px);
+        }
+    
+        to {
+            transform: translateX(0px);
+        }
+    }
+
+    li {
+        padding: 20px;
+    }
+
+    #logo-m {
+        margin-top: 5px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .menu-padrao {
+        display: none;
+    }
+
+    .btn-menu {
+        display: inline-block;
+        text-align: start;
+        margin: 15px;
+    }
+
+    .menu-responsivo {
+        display: block;
+        height: 0;
+        width: 100%;
+        z-index: 1001;
+        overflow-x: hidden;
+        transition: all .5s;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: rgba(90, 15, 15, 0.759);
+        backdrop-filter: blur(3px);
+    }
+
+    .menu {
+        flex-direction: column;
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .menu a {
+        font-size: 25px;
+    }
+
+    .btn-fecha-menu {
+        position: absolute;
+        top: -7px;
+        right: 15px;
+        font-size: 50px;
+    }
+
+    .inicio {
+        padding: 120px 0px 50px 30px;
+    }
+
+    .inicio h1 {
+        font-size: 25px;
+    }
+
+    .txt {
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .txt p {
+        font-size: 1rem;
+    }
+
+    .SobreMim {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 50px;
+    }
+
+    .SobreMim h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .info-sobremim p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    #img-sobremim {
+        height: 150px;
+        width: 150px;
+        margin-top: 40px;
+    }
+
+    .info-sobremim {
+        margin-left: 0;
+    }
+
+    .projetos .container-projetos {
+        flex-direction: column;
+        padding: 0 50px;
+    }
+
+    .rodape {
+        padding: 7px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 510px) {
+
+    #mauricio {
+        width: 40%;
+        margin-left: 150px;
+        overflow: hidden;
+    }
+
+    .projetos .git .github {
+        font: 13px;
+    }
+
+    .info-sobremim h1 {
+        margin-left: 5px;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+    #img-sobremim {
+        margin-top: 40px;
+    }
+    .info-sobremim button {
+        margin-left: 10px;
+        border: 1px solid #fff;
+    }
+    
+    .info-sobremim .list-buttons{
+        margin-left: 80px;
+        margin-top: 5px;
+    }
+
+    .contatos .info-contato .computador{
+        height: 150px;
+        border-radius: 30px;
+    }
+
+    .contatos .info-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-size: 10px;
+    }
+
+    .contatos .info-contato .info-txt .div-icones {
+        padding: 15px;
+        width: 200px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contatos .info-contato .info-txt .icones {
+        height: 30px;
+        transition-duration: 0.3s;
+        transition-delay: 0s;
+    }
+
+    .div-icons{
+        height: 230px;
+    }
+    .div-icons h2{
+        font-size: 30px;
+        font-weight: bold;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .icons{
+        width: 35px;
+        height: 42px;
+        margin: 5px 5px;
+        margin-left: 11px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+    }
+    .projetos .container-projetos .insta button {
+        margin-bottom: 20px;
+        margin-top: 12px;
+    }
+    .projetos .container-projetos .breve button {
+        margin-bottom: 25px;
+        margin-top: 12px;
+    }
+    .projetos .container-projetos .mario button {
+        margin-bottom: 25px;
+        margin-top: 12px;
+    }
+    .projetos .container-projetos .enigma button {
+        margin-bottom: 25px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 430px){
+
+    li {
+        font-size: 12px;
+    }
+
+    .info-sobremim p {
+        text-align: justify;
+    }
+
+    .projetos h1 {
+        font-size: 25px;
+    }
+
+    .projetos .container-projetos div {
+        padding: 10px 10px 0 10px;
+    }
+
+    .contatos h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    #paragrafo {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+
+    li {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 300px) {
+    #mauricio {
+        width: 30%;
+    }
+}
